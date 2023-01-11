@@ -1,16 +1,16 @@
-#if !HAS_UNO_WINUI
+﻿#if !HAS_UNO_WINUI
 using System;
 using AVFoundation;
 using Uno.Extensions;
 using Uno.Media.Playback;
-using Windows.UI.Xaml.Media;
+using Microsoft.UI.Xaml.Media;
 #if __IOS__
 using _View = UIKit.UIView;
 #else
 using _View = AppKit.NSView;
 #endif
 
-namespace Windows.UI.Xaml.Controls
+namespace Microsoft.UI.Xaml.Controls
 {
 	public partial class MediaPlayerPresenter
 	{

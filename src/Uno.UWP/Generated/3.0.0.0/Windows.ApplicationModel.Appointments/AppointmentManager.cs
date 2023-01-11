@@ -3,7 +3,7 @@
 namespace Windows.ApplicationModel.Appointments
 {
 	#if false || __IOS__ || NET461 || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-	[global::Uno.NotImplemented]
+	[global::Uno.NotImplemented("__IOS__", "NET461", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 	#endif
 	public static partial class AppointmentManager 
 	{
@@ -36,7 +36,7 @@ namespace Windows.ApplicationModel.Appointments
 		}
 		#endif
 		#if false || __IOS__ || NET461 || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "NET461", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		[global::Uno.NotImplemented("__IOS__", "NET461", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public static global::Windows.Foundation.IAsyncOperation<global::Windows.ApplicationModel.Appointments.AppointmentStore> RequestStoreAsync( global::Windows.ApplicationModel.Appointments.AppointmentStoreAccessType options)
 		{
 			throw new global::System.NotImplementedException("The member IAsyncOperation<AppointmentStore> AppointmentManager.RequestStoreAsync(AppointmentStoreAccessType options) is not implemented in Uno.");
@@ -99,7 +99,7 @@ namespace Windows.ApplicationModel.Appointments
 		}
 		#endif
 		#if false || __IOS__ || NET461 || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "NET461", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		[global::Uno.NotImplemented("__IOS__", "NET461", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public static global::Windows.Foundation.IAsyncAction ShowTimeFrameAsync( global::System.DateTimeOffset timeToShow,  global::System.TimeSpan duration)
 		{
 			throw new global::System.NotImplementedException("The member IAsyncAction AppointmentManager.ShowTimeFrameAsync(DateTimeOffset timeToShow, TimeSpan duration) is not implemented in Uno.");

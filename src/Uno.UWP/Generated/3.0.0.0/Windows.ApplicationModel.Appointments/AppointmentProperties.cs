@@ -113,16 +113,7 @@ namespace Windows.ApplicationModel.Appointments
 			}
 		}
 		#endif
-		#if false
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "NET461", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public static string Reminder
-		{
-			get
-			{
-				throw new global::System.NotImplementedException("The member string AppointmentProperties.Reminder is not implemented in Uno.");
-			}
-		}
-		#endif
+		// Skipping already declared property Reminder
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "NET461", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public static string ReplyTime

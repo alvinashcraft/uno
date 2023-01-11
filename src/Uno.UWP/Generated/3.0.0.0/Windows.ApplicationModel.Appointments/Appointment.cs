@@ -70,20 +70,7 @@ namespace Windows.ApplicationModel.Appointments
 			}
 		}
 		#endif
-		#if false
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "NET461", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public  global::System.TimeSpan? Reminder
-		{
-			get
-			{
-				throw new global::System.NotImplementedException("The member TimeSpan? Appointment.Reminder is not implemented in Uno.");
-			}
-			set
-			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.ApplicationModel.Appointments.Appointment", "TimeSpan? Appointment.Reminder");
-			}
-		}
-		#endif
+		// Skipping already declared property Reminder
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "NET461", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public  global::System.Collections.Generic.IList<global::Windows.ApplicationModel.Appointments.AppointmentInvitee> Invitees

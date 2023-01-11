@@ -1,9 +1,9 @@
-#if !HAS_UNO_WINUI && (__ANDROID__ || __IOS__ || __MACOS__)
+﻿#if !HAS_UNO_WINUI && (__ANDROID__ || __IOS__ || __MACOS__)
 
 using System;
 using Windows.Media.Playback;
 
-namespace Windows.UI.Xaml.Controls
+namespace Microsoft.UI.Xaml.Controls
 {
 	public partial class MediaTransportControls
 	{

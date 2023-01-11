@@ -2,7 +2,7 @@
 using Windows.Foundation;
 using Uno;
 
-namespace Windows.UI.Xaml.Controls
+namespace Microsoft.UI.Xaml.Controls
 {
 	internal partial class TextBlockMeasureCache
 	{

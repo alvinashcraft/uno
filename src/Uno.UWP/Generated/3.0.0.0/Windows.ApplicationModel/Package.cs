@@ -72,16 +72,7 @@ namespace Windows.ApplicationModel
 			}
 		}
 		#endif
-		#if false
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "NET461", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public  string InstalledPath
-		{
-			get
-			{
-				throw new global::System.NotImplementedException("The member string Package.InstalledPath is not implemented in Uno.");
-			}
-		}
-		#endif
+		// Skipping already declared property InstalledPath
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "NET461", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public  bool IsStub

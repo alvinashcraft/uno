@@ -2,8 +2,8 @@
 #pragma warning disable 114 // new keyword hiding
 namespace Windows.Storage
 {
-	#if false || false || false || false || false || false || false
-	[global::Uno.NotImplemented]
+	#if false || false || NET461 || false || false || false || false
+	[global::Uno.NotImplemented("NET461")]
 	#endif
 	public  partial class ApplicationData : global::System.IDisposable
 	{
